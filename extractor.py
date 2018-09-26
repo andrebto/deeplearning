@@ -32,8 +32,8 @@ class Extractor():
         self.network = network
 
         if(weights is None):
-		#Get network pretrained model
-        	base_model = get_network(network)(weights='imagenet', include_top=True)
+            #Get network pretrained model
+            base_model = get_network(network)(weights='imagenet', include_top=True)
         else:
             base_model = load_model(weights)
 
