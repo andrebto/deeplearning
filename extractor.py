@@ -6,7 +6,7 @@ import numpy as np
 #Get pretrained network
 def get_network(network):
 
-	sizes = {'inception_v3':inception_v3.InceptionV3, 'densenet':densenet.DenseNet121,
+	sizes = {'inceptionv3':inception_v3.InceptionV3, 'densenet':densenet.DenseNet121,
 			'xception':xception.Xception,'resnet50':resnet50.ResNet50,
 			'inception_resnet_v2':inception_resnet_v2.InceptionResNetV2,
 			'vgg16':vgg16.VGG16, 'vgg19':vgg19.VGG19}
